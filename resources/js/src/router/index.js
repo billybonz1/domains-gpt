@@ -39,6 +39,11 @@ const routes = [
     component: () => import('@/views/form-layouts/FormLayouts.vue'),
   },
   {
+    path: '/create-site',
+    name: 'create-site',
+    component: () => import('@/views/create-site/CreateSite.vue'),
+  },
+  {
     path: '/pages/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),

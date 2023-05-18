@@ -1,0 +1,1 @@
+2023/05/04 09:44:45 [alert] 6#6: *393 pread() read only 0 of 32768 from "/var/www/laravel/public/js/app.js" while sending response to client, client: 92.253.212.90, server: app.dev, request: "GET /js/app.js HTTP/1.1", host: "46.175.147.182:4001", referrer: "http://46.175.147.182:4001/dashboard"

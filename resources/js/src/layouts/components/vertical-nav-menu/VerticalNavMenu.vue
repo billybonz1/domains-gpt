@@ -29,6 +29,7 @@
     <!-- Navigation Items -->
     <v-list expand shaped class="vertical-nav-menu-items pr-5">
       <nav-menu-link title="Dashboard" :to="{ name: 'dashboard' }" :icon="icons.mdiHomeOutline"></nav-menu-link>
+      <nav-menu-link title="Test" :to="{ name: 'create-site' }" :icon="icons.mdiFormSelect"></nav-menu-link>
       <nav-menu-link
         title="Account Settings"
         :to="{ name: 'pages-account-settings' }"
